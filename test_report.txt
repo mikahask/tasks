@@ -82,6 +82,23 @@ FAIL src/HtmlCss.test.tsx
             [36m</li>[39m
           [36m</ol>[39m
         [36m</div>[39m
+        [36m<div>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mLog Hello World[0m
+          [36m</button>[39m
+        [36m</div>[39m
+        [0m;[0m
+        [36m<div>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mClick Me[0m
+          [36m</button>[39m
+        [36m</div>[39m
         [0m;[0m
       [36m</div>[39m
     [36m</body>[39m
@@ -193,6 +210,23 @@ FAIL src/HtmlCss.test.tsx
             [36m</li>[39m
           [36m</ol>[39m
         [36m</div>[39m
+        [36m<div>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mLog Hello World[0m
+          [36m</button>[39m
+        [36m</div>[39m
+        [0m;[0m
+        [36m<div>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mClick Me[0m
+          [36m</button>[39m
+        [36m</div>[39m
         [0m;[0m
       [36m</div>[39m
     [36m</body>[39m
@@ -212,295 +246,35 @@ FAIL src/HtmlCss.test.tsx
       at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
       at Object.<anonymous> (src/HtmlCss.test.tsx:22:29)
 
-  ● Some Bootstrap Elements are added › There is one bootstrap button with the text 'Log Hello World'
-
-    TestingLibraryElementError: Unable to find an accessible element with the role "button" and name `/Log Hello World/i`
-
-    Here are the accessible roles:
-
-      heading:
-
-      Name "Mikaylla Website":
-      [36m<h1 />[39m
-
-      Name "Hello World":
-      [36m<h1 />[39m
-
-      --------------------------------------------------
-      banner:
-
-      Name "":
-      [36m<header[39m
-        [33mclass[39m=[32m"App-header"[39m
-      [36m/>[39m
-
-      --------------------------------------------------
-      img:
-
-      Name "Baby":
-      [36m<img[39m
-        [33malt[39m=[32m"Baby"[39m
-        [33msrc[39m=[32m"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22935cd4-b5b4-4716-98f8-bb6d00156232/de3qhpq-ac4700a1-0404-46d5-9f6f-ad55eda89f6d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyOTM1Y2Q0LWI1YjQtNDcxNi05OGY4LWJiNmQwMDE1NjIzMlwvZGUzcWhwcS1hYzQ3MDBhMS0wNDA0LTQ2ZDUtOWY2Zi1hZDU1ZWRhODlmNmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nm2goVv_zI3gqXErAWbJPbVK6-KLhr-6HsvU2IzvQ7M"[39m
-      [36m/>[39m
-
-      --------------------------------------------------
-      list:
-
-      Name "":
-      [36m<ul />[39m
-
-      Name "":
-      [36m<ol />[39m
-
-      --------------------------------------------------
-      listitem:
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      --------------------------------------------------
-
-    Ignored nodes: comments, <script />, <style />
-    [36m<body>[39m
-      [36m<div>[39m
-        [36m<h1>[39m
-          [0mMikaylla Website[0m
-        [36m</h1>[39m
-        [36m<div[39m
-          [33mclass[39m=[32m"App"[39m
-        [36m>[39m
-          [36m<header[39m
-            [33mclass[39m=[32m"App-header"[39m
-          [36m>[39m
-            [0mUD CISC275 with React Hooks and TypeScriptS[0m
-          [36m</header>[39m
-          [36m<div>[39m
-            [36m<h1>[39m
-              [0mHello World[0m
-            [36m</h1>[39m
-            [36m<img[39m
-              [33malt[39m=[32m"Baby"[39m
-              [33msrc[39m=[32m"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22935cd4-b5b4-4716-98f8-bb6d00156232/de3qhpq-ac4700a1-0404-46d5-9f6f-ad55eda89f6d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyOTM1Y2Q0LWI1YjQtNDcxNi05OGY4LWJiNmQwMDE1NjIzMlwvZGUzcWhwcS1hYzQ3MDBhMS0wNDA0LTQ2ZDUtOWY2Zi1hZDU1ZWRhODlmNmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nm2goVv_zI3gqXErAWbJPbVK6-KLhr-6HsvU2IzvQ7M"[39m
-            [36m/>[39m
-          [36m</div>[39m
-          [0m;[0m
-          [36m<p>[39m
-            [0mHello World Edit [0m
-            [36m<code>[39m
-              [0msrc/App.tsx[0m
-            [36m</code>[39m
-            [0m and save. This page will automatically reload. Hello World[0m
-          [36m</p>[39m
-        [36m</div>[39m
-        [36m<div>[39m
-          [0mUnordered List:[0m
-          [36m<ul>[39m
-            [36m<li>[39m
-              [0m3 cookies[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m1 cookie[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m2 cookies[0m
-            [36m</li>[39m
-          [36m</ul>[39m
-          [0mOrdered List:[0m
-          [36m<ol>[39m
-            [36m<li>[39m
-              [0m1 cookie[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m2 cookies[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m3 cookies[0m
-            [36m</li>[39m
-          [36m</ol>[39m
-        [36m</div>[39m
-        [0m;[0m
-      [36m</div>[39m
-    [36m</body>[39m
-
-      39 |     test("There is one bootstrap button with the text 'Log Hello World'", () => {
-      40 |         render(<App />);
-    > 41 |         const button = screen.getByRole("button", { name: /Log Hello World/i });
-         |                               ^
-      42 |         expect(button).toBeInTheDocument();
-      43 |         expect(button).toHaveClass("btn");
-      44 |         expect(button).toHaveClass("btn-primary");
-
-      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
-      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
-      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
-      at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
-      at Object.<anonymous> (src/HtmlCss.test.tsx:41:31)
-
   ● Some Bootstrap Elements are added › Clicking the bootstrap button logs 'Hello World!'
 
-    TestingLibraryElementError: Unable to find an accessible element with the role "button" and name `/Log Hello World/i`
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
 
-    Here are the accessible roles:
+    Expected: "Hello World!"
 
-      heading:
+    Number of calls: 0
 
-      Name "Mikaylla Website":
-      [36m<h1 />[39m
-
-      Name "Hello World":
-      [36m<h1 />[39m
-
-      --------------------------------------------------
-      banner:
-
-      Name "":
-      [36m<header[39m
-        [33mclass[39m=[32m"App-header"[39m
-      [36m/>[39m
-
-      --------------------------------------------------
-      img:
-
-      Name "Baby":
-      [36m<img[39m
-        [33malt[39m=[32m"Baby"[39m
-        [33msrc[39m=[32m"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22935cd4-b5b4-4716-98f8-bb6d00156232/de3qhpq-ac4700a1-0404-46d5-9f6f-ad55eda89f6d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyOTM1Y2Q0LWI1YjQtNDcxNi05OGY4LWJiNmQwMDE1NjIzMlwvZGUzcWhwcS1hYzQ3MDBhMS0wNDA0LTQ2ZDUtOWY2Zi1hZDU1ZWRhODlmNmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nm2goVv_zI3gqXErAWbJPbVK6-KLhr-6HsvU2IzvQ7M"[39m
-      [36m/>[39m
-
-      --------------------------------------------------
-      list:
-
-      Name "":
-      [36m<ul />[39m
-
-      Name "":
-      [36m<ol />[39m
-
-      --------------------------------------------------
-      listitem:
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      Name "":
-      [36m<li />[39m
-
-      --------------------------------------------------
-
-    Ignored nodes: comments, <script />, <style />
-    [36m<body>[39m
-      [36m<div>[39m
-        [36m<h1>[39m
-          [0mMikaylla Website[0m
-        [36m</h1>[39m
-        [36m<div[39m
-          [33mclass[39m=[32m"App"[39m
-        [36m>[39m
-          [36m<header[39m
-            [33mclass[39m=[32m"App-header"[39m
-          [36m>[39m
-            [0mUD CISC275 with React Hooks and TypeScriptS[0m
-          [36m</header>[39m
-          [36m<div>[39m
-            [36m<h1>[39m
-              [0mHello World[0m
-            [36m</h1>[39m
-            [36m<img[39m
-              [33malt[39m=[32m"Baby"[39m
-              [33msrc[39m=[32m"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22935cd4-b5b4-4716-98f8-bb6d00156232/de3qhpq-ac4700a1-0404-46d5-9f6f-ad55eda89f6d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyOTM1Y2Q0LWI1YjQtNDcxNi05OGY4LWJiNmQwMDE1NjIzMlwvZGUzcWhwcS1hYzQ3MDBhMS0wNDA0LTQ2ZDUtOWY2Zi1hZDU1ZWRhODlmNmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nm2goVv_zI3gqXErAWbJPbVK6-KLhr-6HsvU2IzvQ7M"[39m
-            [36m/>[39m
-          [36m</div>[39m
-          [0m;[0m
-          [36m<p>[39m
-            [0mHello World Edit [0m
-            [36m<code>[39m
-              [0msrc/App.tsx[0m
-            [36m</code>[39m
-            [0m and save. This page will automatically reload. Hello World[0m
-          [36m</p>[39m
-        [36m</div>[39m
-        [36m<div>[39m
-          [0mUnordered List:[0m
-          [36m<ul>[39m
-            [36m<li>[39m
-              [0m3 cookies[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m1 cookie[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m2 cookies[0m
-            [36m</li>[39m
-          [36m</ul>[39m
-          [0mOrdered List:[0m
-          [36m<ol>[39m
-            [36m<li>[39m
-              [0m1 cookie[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m2 cookies[0m
-            [36m</li>[39m
-            [36m<li>[39m
-              [0m3 cookies[0m
-            [36m</li>[39m
-          [36m</ol>[39m
-        [36m</div>[39m
-        [0m;[0m
-      [36m</div>[39m
-    [36m</body>[39m
-
-      54 |         const consoleSpy = jest.spyOn(console, "log");
-      55 |         render(<App />);
-    > 56 |         const button = screen.getByRole("button", { name: /Log Hello World/i });
-         |                               ^
+      56 |         const button = screen.getByRole("button", { name: /Log Hello World/i });
       57 |         userEvent.click(button);
-      58 |         expect(consoleSpy).toHaveBeenCalledWith("Hello World!");
+    > 58 |         expect(consoleSpy).toHaveBeenCalledWith("Hello World!");
+         |                            ^
       59 |     });
+      60 | });
+      61 |
 
-      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
-      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
-      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
-      at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
-      at Object.<anonymous> (src/HtmlCss.test.tsx:56:31)
+      at Object.<anonymous> (src/HtmlCss.test.tsx:58:28)
 
 PASS src/text.test.tsx
 PASS src/App.test.tsx
 ----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- App.tsx  |     100 |      100 |     100 |     100 |                   
+All files |      50 |      100 |      50 |      50 |                   
+ App.tsx  |      50 |      100 |      50 |      50 | 45                
 ----------|---------|----------|---------|---------|-------------------
 
 Test Suites: 1 failed, 2 passed, 3 total
-Tests:       4 failed, 5 passed, 9 total
+Tests:       3 failed, 6 passed, 9 total
 Snapshots:   0 total
-Time:        2.575 s
+Time:        2.724 s
 Ran all test suites.
